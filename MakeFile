@@ -1,9 +1,9 @@
-$ make install:
+make install:
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
 
-$ make lint:
+make lint:
 	pylint --disable=R, C hello.py
 
-$ make test:
+make test:
 	python -m pytest -vv --cov=hello test_hello.py

@@ -1,5 +1,6 @@
 """Module for mathematical operations."""
 
+
 def square_root(x: float) -> float:
     """
     Calculate the square root of a number.
@@ -15,4 +16,4 @@ def square_root(x: float) -> float:
     """
     if x < 0:
         raise ValueError("Cannot compute square root of a negative number.")
-    return x ** 0.5
+    return x**0.5

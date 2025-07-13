@@ -3,7 +3,7 @@ make install:
 	pip install -r requirements.txt
 
 make lint:
-	pylint --disable=R, C hello.py
+	pylint hello.py
 
 make test:
 	python -m pytest -vv --cov=hello test_hello.py

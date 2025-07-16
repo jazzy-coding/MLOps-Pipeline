@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: 'Set Up Python Test'
-        uses: MLOps-Pipeline/main@v1
+        uses: actions/setup-python@v5
         with:
           python-version: $${{ matrix.python-version }}
           architecture: x64

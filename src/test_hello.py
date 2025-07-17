@@ -1,4 +1,4 @@
-from hello import square_root
+from src.hello import square_root
 import pytest
 
 def test_square_root():
